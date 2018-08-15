@@ -1,0 +1,42 @@
+{
+  "name": "barbershop-adaptive",
+  "version": "1.0.0",
+  "description": "From .psd to html & css",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint .",
+    "test": "npm run editorconfig"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "source/*.html"
+  ],
+  "engines": {
+    "node": "10.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uanoob/barbershop-adaptive.git"
+  },
+  "keywords": [
+    ".psd",
+    "html",
+    "css",
+    "bem",
+    "sass",
+    "less"
+  ],
+  "author": "uanoob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uanoob/barbershop-adaptive/issues"
+  },
+  "homepage": "https://github.com/uanoob/barbershop-adaptive#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  }
+}
