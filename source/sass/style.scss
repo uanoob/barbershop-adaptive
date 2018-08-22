@@ -1,8 +1,6 @@
-body {
-  background-color: #da9555;
-  color: rgb(5, 16, 117);
-}
-
-img {
-  width: 100%;
-}
+@import "variables.scss";
+@import "mixins.scss";
+@import "outlines.scss";
+@import "scaffolding.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";

@@ -1,0 +1,30 @@
+/* Файл outlines.scss */
+
+body {
+  background-color: $bg-darkgrey;
+  // background-image: url("/img/bb-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 720px auto;
+  min-height: 750px;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    background-color: $bg-darkgrey;
+    // background-image: url("/img/bb-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 1178px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    background-color: $bg-darkgrey;
+    // background-image: url("/img/bb-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 1391px auto;
+  }
+}
