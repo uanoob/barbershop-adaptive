@@ -3,15 +3,10 @@
 .page-header {
   display: flex;
   flex-direction: column;
-
-  @include no-outline();
 }
 
 .page-header__logo {
   height: 85px;
-  background: rgba(255, 255, 255, 0.5);
-
-  @include no-outline();
 }
 
 @media (min-width: $tablet-width) {
